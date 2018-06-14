@@ -1,0 +1,263 @@
+body,h1,ul,li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Meiryo,"メイリオ","ＭＳ Ｐゴシック";
+}
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #BF0000;
+}
+header h1 a {
+    margin: 0;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+}
+
+
+
+
+div.search-form {
+    margin: 10px 0;
+    text-align: center;
+}
+div.search-form input.keyword {
+    font-size: 24px;
+    width: 500px;
+}
+div.search-form input.search-button {
+    font-size: 24px;
+}
+#itemarea {
+	max-width:980px;
+	margin: 0 auto;
+    clear: both;
+}
+#itemlist {
+    margin: 0 auto;
+    display: block;
+    width: 840px;
+    padding: 0;
+}
+.item {
+    display: block;
+    width: 250px;
+    float: left;
+    margin: 9px;
+    padding: 5px;
+    background-color: #FFEEFF;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 5px 5px 5px #DDD;
+}
+
+.item ul {
+    padding: 0;
+}
+
+.item ul li {
+    display: block;
+    margin: 3px;
+    padding: 0;
+}
+
+.item ul li.description {
+    overflow: auto;
+    font-size: 10px;
+    max-height: 100px;
+}
+
+.notice {
+    text-align: center;
+    font-weight: bold;
+    background-color: #BF0000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    margin: 10px auto;
+
+}
+
+.pager {
+    clear: both;
+}
+.pager ul {
+    text-align: center;
+}
+.pager ul li {
+    display: inline-block;
+    padding-right: 1em;
+}
+
+button.button {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+
+    /* ボタンの影の指定
+     * 影の横幅を2px
+     * 縦長を2px
+     * ぼかしを3px
+     * 広がりを1px
+     * 色を#666（グレー）に指定 */
+    box-shadow: 2px 2px 3px 1px #666;
+    -moz-box-shadow: 2px 2px 3px 1px #666;
+    -webkit-box-shadow: 2px 2px 3px 1px #666;
+
+    /* テキストの影の指定
+     * 影の横幅を1px
+     * 縦長を1px
+     * ぼかしを2px
+     * 色を#000（黒）に指定 */
+    text-shadow: 1px 1px 2px #000;
+
+    /* グラデーションの指定 */
+    background: -moz-linear-gradient(bottom, #36d, #248 50%, #36d);
+    background: -webkit-gradient(linear, left bottom, left top, from(#36d), color-stop(0.5, #248), to(#36d));
+
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+button.button:hover {
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
+
+.text{
+	text-align:center;
+}
+
+
+/* navbar */
+.navbar {
+	padding-top: 8px;
+	
+    background-color: red;
+}
+.navbar-header img {
+    margin-top: 5px;
+    height: 40px;
+}
+
+/* cover */
+.cover {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    background: url("/images/cover-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+.cover .cover-inner {
+    height: 100%;
+    margin: auto;
+    display: table;
+}
+.cover .cover-inner .cover-contents {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+.cover .cover-inner .cover-contents h1 {
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+}
+.cover .btn-success {
+    background-color: #ed486f;
+    border-color: #ed486f;
+}
+
+/* search */
+.search {
+    margin-bottom: 20px;
+}
+
+/* item */
+.item .panel-body {
+    height: 70px;
+}
+.item .panel-heading {
+    height: 250px;
+}
+.item .panel-heading img {
+    height: 100%;
+    max-width: 100%;
+}
+p.item-title {
+    /* 文の行数を2行に保ち、最後に ... を追加するスタイル */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* item */
+.item .panel-body {
+    height: 120px;
+}
+.item .buttons form {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* users */
+.user-profile .name {
+    margin-bottom: 20px;
+}
+.user-profile .name h1 {
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+}
+.user-profile .status ul {
+    margin: 0 auto 10px;
+    padding: 0;
+    display: table;
+}
+.user-profile .status ul li {
+    width: 120px;
+    padding: 5px 0;
+    border-right: 1px solid #ddd;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #777;
+}
+.user-profile .status ul li:last-child {
+    border: none;
+}
+.user-profile .status ul li .status-label {
+    font-size: 12px;
+}
+.user-profile .status ul li .status-value {
+    font-size: 18px;
+}
